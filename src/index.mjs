@@ -20,6 +20,11 @@ function onStarClick(currentClicked, eventType){
 }
 
 container.addEventListener('click',(event)=>{
+  //datasets can also be accesed from the events like 
+  // event.target.dataset.index; also from the element as el.dataset.index
+   let currentClicked= event.target.dataset.index;
+   onStarClick(currentClicked, 'clicked');
+})
    let currentClicked= event.target.dataset.index;
    onStarClick(currentClicked, 'clicked');
 })
