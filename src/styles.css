@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+.rating-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stars-wrapper {
+  font-size: 50px;
+}
+
+.star {
+  padding: 10px;
+  color: grey;
+  cursor: pointer;
+}
+.filled {
+  color: gold;
+}
